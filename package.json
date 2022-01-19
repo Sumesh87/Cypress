@@ -1,0 +1,18 @@
+{
+  "name": "cypressdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "chromeTest": "npm run test -- --browser chrome",
+    "Cart": "npm run test -- --spec \"cypress/integration/CART/*\""
+
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.1.1",
+    "cypress-iframe": "^1.0.1"
+  }
+}
